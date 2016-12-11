@@ -1,0 +1,69 @@
+.sidebar {
+	float: left;
+	width: 150px;
+	height: 1000px;
+	padding-top: 30px;
+	position: fixed;
+	top: 0;
+	background: teal;
+}
+
+.sidebar li {
+	list-style: none;
+	background: #ddd;
+	margin-bottom: 10px;
+	margin-left: -15px;
+	padding: 10px;
+	width: 100px;
+	z-index: 100;
+}
+
+.main-container {
+	margin-left:200px;
+}
+
+.main-container .img-cont {
+	border: 1px solid #ccc;
+	margin: 10px 10px 0 10px;
+	padding: 0;
+	width: auto;
+}
+
+.main-container .img-cont:hover {
+	border: 2px solid #ccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.main-container  .img-map{    
+    margin-bottom:20px;        
+}
+    
+
+.main-container  .carousel-inner > .item > img, .main-container  .carousel-inner > .item > a > img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.main-container  .carousel-control.left, .main-container .carousel-control.right {
+	background-image: none;
+}
+
+.section-white {
+	padding: 10px 0;
+	background-color: #fff;
+	color: #555;
+}
+
+@media screen and (min-width: 768px) {
+	.section-white {
+		padding: 1.5em 0;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.carousel-container {
+		max-width: 930px;
+	}
+}
+  
